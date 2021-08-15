@@ -1,0 +1,60 @@
+.navbar{
+
+}
+.navbar__nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height:60px;
+border-bottom: 1px solid gray;
+
+}
+.nav__title{
+   
+font-size: 23px;
+cursor: pointer;
+/* padding:5px; */
+padding:0px 20px 0px 20px;
+}
+.nav__title:hover{
+    border: 1px dotted black;
+    
+}
+.nav__unlist{
+display: flex;
+list-style: none;
+/* border: 1px solid black; */
+font-size: 18px;
+padding:2px;
+
+
+}
+.nav__unlist li{
+    
+    cursor: pointer;
+   margin-right:30px;
+    padding:10px;
+}
+.nav__unlist li:hover{
+    border: 1px dotted black;
+}
+.nav__unlist__home{
+
+}
+.nav__unlist__login{
+
+}
+.nav__unlist__singup{
+
+}
+.nav__unlist__logout{
+
+}
+
+@media(max-width :626px){
+    .nav__title{
+        font-size: 20px;
+        padding:0px ;
+        margin-left: 5px;
+    }
+}
