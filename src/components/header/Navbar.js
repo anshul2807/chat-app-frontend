@@ -11,7 +11,7 @@ function Navbar() {
                     {!isLogin?
                     <>
                     <li className="nav__unlist__login">Login</li>
-                    <li className="nav__unlist__signup">SingUp</li>
+                    <li className="nav__unlist__signup">SignUp</li>
                     </>
                     :       
                     <li className="nav__unlist__logout">Logout</li>

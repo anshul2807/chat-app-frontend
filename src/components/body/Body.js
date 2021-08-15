@@ -4,7 +4,7 @@ function Body() {
     return (
         <div className="body">
            <div className="body__first">
-                <h1>Go Anonymously</h1>
+                <h1>Go Anonymous</h1>
                 <a className="body__start" href="#">Get Started</a>
            </div>
 
