@@ -1,0 +1,37 @@
+.chatfoot{
+    
+    width:99%;
+    height:6em;
+    border:1px solid gray;
+    display: flex;
+}
+.chatfoot__first{
+flex :0.1;
+border: 1px solid gray;
+margin: 7px;
+text-align: center;
+border-radius: 0px 0px 0px 10px;
+cursor: pointer;
+padding-top: 10px;
+
+}
+.chatfoot__second{
+flex :0.8;
+padding: 7px;
+}
+.chatfoot__second textarea{
+    width:100%;
+    border-radius: 0%;
+    height: 80px;
+    resize: none;
+    
+}
+.chatfoot__third{
+flex: 0.1;
+border: 1px solid gray;
+margin: 7px;
+text-align: center;
+border-radius: 0px 0px 10px 0px;
+cursor: pointer;
+padding-top: 10px;
+}

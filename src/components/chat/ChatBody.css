@@ -1,0 +1,32 @@
+.chatbody{
+    border:1px solid gray;
+    width:99%;
+    height:73vh;
+    overflow-y: auto;
+    margin-top: 5px;
+}
+
+.chatbody__message{
+  
+    
+}
+
+.chatbody__section{
+display: flex;
+margin:5px;
+}
+.chatbody__section__name{
+
+font-weight: 500;
+margin-right:10px;
+
+}
+.user1{
+    color: blue;
+}
+.user2{
+    color: red;
+}
+.chatbody__section__message{
+
+}

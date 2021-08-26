@@ -1,0 +1,72 @@
+.feed{
+display: flex;
+flex-direction: column;
+
+border: 1px solid black;
+width:450px;
+margin:30px auto;
+padding:20px;
+
+}
+.feed h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.feed__first ul{
+    display: flex;
+    justify-content: space-around;
+ list-style: none;
+ cursor: pointer;
+ margin-top: 10px;
+}
+.feed__first label{
+
+}
+.feed__second{
+    margin:30px 0px 30px 0px;
+}
+.feed__second ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.feed__second ul li{
+    border: 1px solid white ;
+padding: 10px;
+}
+.feed__second ul li:hover{
+    border: 1px dotted black;
+}
+.feed__second label{
+
+}
+
+.feed__third label{
+
+}
+.feed__third {
+display: flex;
+flex-direction: column;
+margin:30px 0px 20px 0px;
+}
+button{
+height: 40px;
+border-radius: 10px;
+border:1px solid gray;
+cursor: pointer;
+font-size: 15px;
+opacity: 1;
+}
+button:active{
+    opacity: 0.8;
+}
+
+textarea{
+    min-height: 70px;
+    resize: vertical;
+    font-size: 20px;
+    border-radius: 10px;
+}
