@@ -5,7 +5,9 @@ import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom'
 import {ChatProvider} from './ContextAPI/Chat';
 import {ConnectProvider} from "./ContextAPI/Connect";
+import {LoginProvider} from './ContextAPI/Login'
 ReactDOM.render(
+  <LoginProvider>
   <ConnectProvider>
    <ChatProvider>
     <Router>
@@ -14,6 +16,7 @@ ReactDOM.render(
     
     </ChatProvider>
     </ConnectProvider>
+    </LoginProvider>
   ,
   document.getElementById('root')
 );

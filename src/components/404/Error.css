@@ -1,0 +1,17 @@
+.error{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin:40px auto;
+    flex-direction: column;
+}
+.error__body{
+}
+.error__body p{
+font-size: 15em;
+}
+@media(max-width :626px){
+    .error__body p{
+        font-size: 5em;
+    }
+}

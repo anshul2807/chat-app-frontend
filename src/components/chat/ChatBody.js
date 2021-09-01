@@ -2,6 +2,7 @@ import React,{useContext,useRef,useEffect,useState} from 'react'
 import './ChatBody.css'
 import {ChatContext} from '../../ContextAPI/Chat'
 import {ConnectContext} from '../../ContextAPI/Connect'
+import ScrollToBottom from 'react-scroll-to-bottom';
 function ChatBody() {
 
     const [chat,setChat] = useContext(ChatContext);

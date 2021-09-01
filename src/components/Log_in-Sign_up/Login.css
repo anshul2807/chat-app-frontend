@@ -1,0 +1,46 @@
+.login{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+ }
+ .login h1{
+ font-weight: 500;
+ text-decoration: underline;
+ margin-top: 20px;
+ }
+ .login__body{
+     margin:20px 0px 20px 0px;
+ }
+ .login__body input{
+    
+     
+ }
+ .login__body input:focus{
+     outline: none;
+     
+ }
+ .login__body label{
+     margin-right: 10px;
+ }
+ 
+ 
+ .login__email{
+     margin:0px 0px 20px 0px;
+ }
+ .login__password{
+     margin:0px 0px 20px 0px;
+ }
+ .login__submit{
+     margin:0px 0px 20px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ 
+ .login__submit button{
+ border-radius: 10px;
+ padding: 10px;
+ }
+ 

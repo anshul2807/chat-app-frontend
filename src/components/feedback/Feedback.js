@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Feedback.css'
 import EmojiEmotionsOutlinedIcon from '@material-ui/icons/EmojiEmotionsOutlined';
 import SentimentSatisfiedOutlinedIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
@@ -6,6 +6,9 @@ import SentimentVeryDissatisfiedOutlinedIcon from '@material-ui/icons/SentimentV
 import SentimentDissatisfiedOutlinedIcon from '@material-ui/icons/SentimentDissatisfiedOutlined';
 
 function Feedback() {
+    useEffect(() => {
+        document.title = "feedback"
+      }, [])
     return (
         <div className="feed">
             <h1>Your Feedback</h1>

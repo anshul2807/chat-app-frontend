@@ -1,0 +1,47 @@
+.create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin:50px auto;
+    width: 50%;
+    }
+    .create__label{
+    position: relative;
+    top: -15px;
+    background-color: white;
+    width: 250px;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1.5em;
+    font-weight: 700;
+    }
+    .create__sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    }
+    .create__sec1 label{
+        font-size: 1.5em;
+        margin-right: 30px;
+        font-weight: 400;
+    }
+    .create__sec1 input{
+    font-size: 20px  ;
+    border: none;
+    background-color:rgb(241, 238, 238);
+    }
+    .create__sec1 input:focus{
+        outline: none;
+        border-bottom: 1px solid black;
+    }
+    .create__button button{
+        width: 100px;
+        font-size: 1.2em;
+        margin: 20px;
+    }
+    

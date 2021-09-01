@@ -1,7 +1,10 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Body.css';
 import {Link} from "react-router-dom";
 function Body() {
+    useEffect(() => {
+        document.title = "home"
+      }, [])
     return (
         <div className="body">
            <div className="body__first">

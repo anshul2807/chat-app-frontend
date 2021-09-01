@@ -1,8 +1,12 @@
-import React,{useState} from 'react'
+import React,{useContext} from 'react'
 import './Navbar.css';
 import {Link} from "react-router-dom";
+import {LoginContext} from '../../ContextAPI/Login'
 function Navbar() {
-    const [isLogin,setisLogin]=useState(false);
+    const [islogin,setIsLogin] = useContext(LoginContext);
+    const handleLogout =()=>{
+        setIsLogin(false);
+    }
     return (
         <div className="navbar">
             <nav className="navbar__nav">
@@ -10,13 +14,13 @@ function Navbar() {
                 <ul className="nav__unlist">
                     <Link to="/"><li className="nav__unlist__home">Home</li></Link>
                     <Link to="/feedback"><li className="nav__unlist__feedback">FeedBack</li></Link>
-                    {!isLogin?
+                    {!islogin?
                     <>
                     <Link to="/login"><li className="nav__unlist__login">Login</li></Link>
                     <Link to="/signup"><li className="nav__unlist__signup">SignUp</li></Link>
                     </>
                     :       
-                    <li className="nav__unlist__logout">Logout</li>
+                    <li className="nav__unlist__logout" onClick={handleLogout}>Logout</li>
                     }
                 </ul>
             </nav>

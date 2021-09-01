@@ -1,0 +1,34 @@
+.home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 30px auto;
+}
+.home__sec1{
+
+}
+.home__sec1 h1{
+font-size: 3em;
+font-weight: 500;
+}
+.home__sec1__links{
+margin-top: 50px;    
+display: flex;
+justify-content: space-around;
+
+}
+
+.home__sec1__links a{
+border: 1px solid black;
+color:black;
+text-decoration: none;
+font-size: 2em;
+padding: 20px;
+border-radius: 50px;
+cursor: pointer;
+}
+.home__sec1__links a:active{
+
+}
